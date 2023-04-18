@@ -1,9 +1,10 @@
-cython==0.29.33
+cmdstanpy==1.1.0
+convertdate==2.4.0
+Cython==0.29.33
 numpy==1.21.6
 pandas==1.5.3
-convertdate
-streamlit==1.20.0
 plotly==5.14.1
-pystan
-prophet
+pystan==2.19.1.1
+prophet==1.1.2
+streamlit==1.20.0
 yfinance==0.2.17

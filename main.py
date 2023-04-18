@@ -3,12 +3,17 @@ import numpy as np
 import convertdate
 import cython
 from datetime import date
-from fbprophet import Prophet
-from fbprophet.plot import plot_plotly
+#from fbprophet import Prophet
+#from fbprophet.plot import plot_plotly
+import cmdstanpy
+import prophet
+from prophet import Prophet
+from prophet.plot import plot_plotly
 import pandas as pd
 from plotly import graph_objs as go
 import pystan
 from stock_etf_list import stocks
+#import stdout_suppressor
 import streamlit as st
 import yfinance as yf
 
@@ -76,10 +81,13 @@ df_train = data[['Date','Close']]
 df_train = df_train.rename(columns = {"Date": "ds", "Close": "y"})
 
 # Use timeseries' Prophet function developed by Facebook
-m = Prophet()
+#m = Prophet()
+
+m = Prophet(daily_seasonality=True)
 m.fit(df_train)
 future = m.make_future_dataframe(periods = period)
 forecast = m.predict(future)
+#df_forecast = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper', 'trend']].tail()
 
 # Show and plot forecast
 st.subheader('Forecast Data - Table')

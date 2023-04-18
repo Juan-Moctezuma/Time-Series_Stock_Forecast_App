@@ -1,5 +1,4 @@
 ######### PART 1 - Importing Libraries
-import cython
 from datetime import date
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly

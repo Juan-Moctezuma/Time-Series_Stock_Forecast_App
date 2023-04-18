@@ -1,0 +1,5 @@
+fbprophet==0.7.1
+pandas==1.5.3
+plotly==5.14.1
+streamlit==1.20.0
+yfinance==0.2.17

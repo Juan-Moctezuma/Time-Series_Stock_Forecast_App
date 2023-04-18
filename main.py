@@ -6,12 +6,12 @@ from datetime import date
 #from fbprophet import Prophet
 #from fbprophet.plot import plot_plotly
 import cmdstanpy
+import pystan
 import prophet
 from prophet import Prophet
 from prophet.plot import plot_plotly
 import pandas as pd
 from plotly import graph_objs as go
-import pystan
 from stock_etf_list import stocks
 #import stdout_suppressor
 import streamlit as st

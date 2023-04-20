@@ -1,10 +1,10 @@
-cmdstanpy==1.1.0
-convertdate==2.4.0
-Cython==0.29.33
+keras==2.11.0
+matplotlib==3.6.3
 numpy==1.21.6
 pandas==1.5.3
+pandas_datareader==0.10.0
 plotly==5.14.1
-pystan==2.19.1.1
-prophet==1.1.2
+scikit_learn==1.2.2
+seaborn==0.12.2
 streamlit==1.20.0
 yfinance==0.2.17

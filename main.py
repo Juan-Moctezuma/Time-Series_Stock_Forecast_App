@@ -36,13 +36,12 @@ with col2:
     st.image('Assets/trend.png', width = 50)
 st.markdown("***")
 st.markdown("This application forecasts individual stock and exchange-traded fund (ETF) prices. " + 
-            "Select a ticker (abbreviation for specific company stock or investment vehicle) and use the slider " + 
-            "to choose a prediction timeframe (ranging from 1 to 4 years). Facebook's Prophet library is the software " + 
-            "that performs the calculations associated with the prediction (estimations based on historical data from Yahoo Finance) " + 
+            "Select a ticker (abbreviation for specific company stock or investment vehicle) - Apple (AAPL) is selected by default. " + 
+            "A trained Keras model performs the calculations associated with the prediction (estimations based on historical data from Yahoo Finance) " + 
             "of future prices. This web app contains 503 stocks that serve as S&P 500 components plus the top 25 USD-Volume " + 
             "leaders (such as IVV - an S&P 500 ETF) - hence a total of 528 options available. " +
             "There's a predicted price (1 day into the future) for the share associated with your selected ticker at the bottom of the page. ")
-st.markdown("**DISCLAIMER - The developer of this tool is not a Financial Advisor, therefore live trading-related decisions solely based on the outputs from this application are not encouraged.**")
+st.markdown("**DISCLAIMER - The developer of this tool is not a Financial Advisor, therefore live trading-related decisions based on the outputs from this application are not encouraged.**")
             
 st.markdown("***")
 

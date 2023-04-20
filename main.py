@@ -10,6 +10,7 @@ from plotly import graph_objs as go
 import seaborn as sns
 from stock_etf_list import stocks
 import streamlit as st
+import tensorflow as tf
 import warnings
 import yfinance as yf
 

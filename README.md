@@ -23,7 +23,7 @@ This application forecasts individual stock and exchange-traded fund (ETF) price
    * Financial Markets & Investment Vehicles - Stocks, ETFs, S&P 500 - Index Funds 
    * Python Programming using Visual Studio Code
    * Shell Scripting Programming (for dependencies' installation and Python downgrading)
-   * Keras LSTM (Long Short Term Memory) layer (Recurrent Neural Network) for timeseries prediction
+   * Keras LSTM (Long Short Term Memory) layer (Recurrent Neural Network) for Timeseries Prediction
    * Web Development & Application Deployment
 
 ### References

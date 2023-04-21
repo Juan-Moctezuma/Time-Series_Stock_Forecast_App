@@ -1,7 +1,7 @@
 # Time-Series Stock & ETF Forecast Streamlit Application
 
 ### Technical Description in Non-Technical Terms
-This application forecasts individual stock and exchange-traded fund (ETF) prices. Select a ticker (abbreviation for specific company stock or investment vehicle) - Apple (AAPL) is selected by default. A trained Keras LSTM (Long Short Term Memory) model performs the calculations associated with the prediction (estimations based on historical data from Yahoo Finance) of future prices. This web app contains 503 stocks that serve as S&P 500 components plus the top 25 USD-Volume leaders (such as IVV - an S&P 500 ETF) - hence a total of 528 options available. DISCLAIMER - The developer of this tool is not a Financial Advisor, therefore live trading-related decisions solely based on the outputs from this application are not encouraged.
+This application forecasts individual stock and exchange-traded fund (ETF) prices. Select a ticker (abbreviation for specific company stock or investment vehicle) - Apple (AAPL) is selected by default. A trained Keras LSTM (Long Short Term Memory) model performs the calculations associated with the prediction (estimations are based on historical data from Yahoo Finance) of future prices. This web app contains 503 stocks that serve as S&P 500 components plus the top 25 USD-Volume leaders (such as IVV - an S&P 500 ETF) - hence a total of 528 options available. DISCLAIMER - The developer of this tool is not a Financial Advisor, therefore live trading-related decisions solely based on the outputs from this application are not encouraged.
 
 ### Presentation GIF
 <img src="Assets/stock_prediction.gif" width="80%">

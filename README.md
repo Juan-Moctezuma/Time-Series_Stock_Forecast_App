@@ -24,7 +24,7 @@ This application forecasts individual stock and exchange-traded fund (ETF) price
    * Python Programming using Visual Studio Code
    * Shell Scripting Programming (for dependencies' installation and Python downgrading)
    * Keras LSTM (Long Short Term Memory) layer (Recurrent Neural Network) for Timeseries Prediction
-   * Web Development & Application Deployment
+   * Web Development
 
 ### References
    * Abdou Rockikz. ThePythonCode. Predicting different stock prices using Long Short-Term Memory Recurrent Neural Network in Python using TensorFlow 2 and Keras. https://www.thepythoncode.com/article/stock-price-prediction-in-python-using-tensorflow-2-and-keras
